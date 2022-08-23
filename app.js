@@ -114,6 +114,7 @@ aboutClose.addEventListener("click", () => {
 contactOpen.addEventListener("click", () => {
   UiUpdate();
   contactCont.style.display = "flex";
+  aboutCont.style.display = "none";
 });
 
 // Contact close

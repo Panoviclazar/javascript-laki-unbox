@@ -681,7 +681,7 @@ header nav ul i {
     display: none;
   }
   .wheel-container {
-    margin-top: 130px;
+    margin-top: 170px;
     width: 300px;
   }
   .wheel-container img {
@@ -751,19 +751,24 @@ header nav ul i {
     text-align: justify;
   }
   .about-cont {
-    width: 90%;
-    height: 600px;
+    width: 80%;
+    height: 570px;
     top: 50%;
-    transform: translateY(-47%);
+    transform: translateY(-45%);
     gap: 10px;
     padding: 20px 20px;
     justify-self: center;
   }
+  .about-cont i {
+    left: -30px;
+    top: -30px;
+  }
   .about-cont p {
-    font-size: 16px;
+    font-size: 15px;
   }
   .contact-cont {
     width: 90%;
+    top: 100px;
   }
   .contact-cont .contact-text {
     display: flex;
