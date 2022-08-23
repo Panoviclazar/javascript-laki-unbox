@@ -5,77 +5,361 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
   </head>
   <body>
-    <a href="spin.html" class="spin">SPIN</a>
-    <div class="kont">
-      <img class="nagrada" src="" alt="" />
-      <p class="cena">Kliknite da bi izvukli nagradu!</p>
-      <button class="btn">Izvlacenje <span>50$</span></button>
+    <header>
+      <p class="laki-unbox">Laki Unbox</p>
+      <p class="balance">Balance: <span class="balance-sum">$100</span></p>
+      <i class="fa-solid fa-bars-staggered"></i>
+      <nav class="nav">
+        <ul>
+          <i class="fa-solid fa-xmark nav-close"></i>
+          <li class="claimed-rewards-open">My Rewards</li>
+          <li class="about-open">About</li>
+          <li class="contact-open">Contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Reward window -->
+
+    <div class="reward-current">
+      <p>Your reward is</p>
+      <img class="reward-picture" src="./img/15.jpg" alt="" />
+      <div class="title-container">
+        <h6 class="reward-title">Wireless headphones</h6>
+        <span class="reward-price">(70$)</span>
+      </div>
+      <div class="buttons">
+        <button class="btn-claim">Claim</button>
+        <button class="btn-sell">Sell</button>
+      </div>
     </div>
-    <div class="img-kont">
+
+    <!-- Spinning Wheel -->
+
+    <div class="wheel-container">
+      <div class="rewards k1">
+        <img src="./img/15.jpg" alt="" />
+      </div>
+      <div class="rewards k2">
+        <img src="./img/20.jpg" alt="" />
+      </div>
+      <div class="rewards k3">
+        <img src="./img/19.jpg" alt="" />
+      </div>
+      <div class="rewards k4">
+        <img src="./img/8.jpg" alt="" />
+      </div>
+      <div class="rewards k5">
+        <img src="./img/12.jpg" alt="" />
+      </div>
+      <div class="rewards k6">
+        <img src="./img/21.png" alt="" />
+      </div>
+      <div class="rewards k7">
+        <img src="./img/18.jpg" alt="" />
+      </div>
+      <div class="rewards k8">
+        <img src="./img/9.jpg" alt="" />
+      </div>
+      <div class="rewards k9">
+        <img src="./img/23.jpg" alt="" />
+      </div>
+      <div class="rewards k10">
+        <img src="./img/14.jpg" alt="" />
+      </div>
+      <div class="rewards k11">
+        <img src="./img/16.jpg" alt="" />
+      </div>
+      <div class="rewards k12">
+        <img src="./img/7.png" alt="" />
+      </div>
+      <div class="rewards k13">
+        <img src="./img/22.jpg" alt="" />
+      </div>
+      <div class="rewards k14">
+        <img src="./img/13.jpg" alt="" />
+      </div>
+      <div class="rewards k15">
+        <img src="./img/10.jpg" alt="" />
+      </div>
+      <div class="rewards k16">
+        <img src="./img/17.jpg" alt="" />
+      </div>
+      <div class="wheel">
+        <div class="wheel-arrow"></div>
+      </div>
+      <div class="btn-spin">SPIN <span>($50)</span></div>
+    </div>
+
+    <!-- All rewards window -->
+
+    <p class="all-rewards">Click to see all rewards</p>
+    <div class="rewards-cont">
+      <button class="btn-odds">Click to see odds</button>
+      <i class="fa-solid fa-xmark all-rewards-close"></i>
       <div>
+        <p class="odds block">(0.1%)</p>
+        <img src="./img/7.png" alt="" />
+        <p class="cenap">Iphone 13 Pro Max 1500$</p>
+      </div>
+      <div>
+        <p class="odds block">(0.1%)</p>
         <img src="./img/8.jpg" alt="" />
         <p class="cenap">Galaxy Note10+ 1100$</p>
       </div>
       <div>
+        <p class="odds block">(0.2%)</p>
         <img src="./img/9.jpg" alt="" />
         <p class="cenap">Dron MAVIK PRO 900$</p>
       </div>
       <div>
+        <p class="odds block">(0.3%)</p>
         <img src="./img/10.jpg" alt="" />
         <p class="cenap">Nikon Aparat D3500 600$</p>
       </div>
       <div>
+        <p class="odds block">(0.5%)</p>
         <img src="./img/12.jpg" alt="" />
         <p class="cenap">Nike Jordan Patike 500$</p>
       </div>
       <div>
+        <p class="odds block">(1.0%)</p>
         <img src="./img/13.jpg" alt="" />
         <p class="cenap">Haverbord LAMBORGHINI 450$</p>
       </div>
       <div>
+        <p class="odds block">(1.5%)</p>
         <img src="./img/14.jpg" alt="" />
         <p class="cenap">Go Pro HERO 7 380$</p>
       </div>
       <div>
+        <p class="odds block">(1.7%)</p>
         <img src="./img/15.jpg" alt="" />
         <p class="cenap">Wireless BEAT slusalice 300$</p>
       </div>
       <div>
+        <p class="odds block">(3.3%)</p>
         <img src="./img/16.jpg" alt="" />
         <p class="cenap">Apple Mis/Tastatura 275$</p>
       </div>
       <div>
+        <p class="odds block">(4.0%)</p>
         <img src="./img/17.jpg" alt="" />
         <p class="cenap">Supreme Duks 230$</p>
       </div>
       <div>
+        <p class="odds block">(5.3%)</p>
         <img src="./img/18.jpg" alt="" />
         <p class="cenap">VR Naocare 190$</p>
       </div>
       <div>
+        <p class="odds block">(6.6%)</p>
         <img src="./img/19.jpg" alt="" />
         <p class="cenap">Poker Set 100$</p>
       </div>
       <div>
+        <p class="odds block">(9.2%)</p>
         <img src="./img/20.jpg" alt="" />
         <p class="cenap">Navigacija $90</p>
       </div>
       <div>
+        <p class="odds block">(22.1%)</p>
         <img src="./img/21.png" alt="" />
         <p class="cenap">JBL zvucnik $50</p>
       </div>
       <div>
+        <p class="odds block">(22.1%)</p>
         <img src="./img/22.jpg" alt="" />
         <p class="cenap">PS Portable $35</p>
       </div>
       <div>
+        <p class="odds block">(22.1%)</p>
         <img src="./img/23.jpg" alt="" />
         <p class="cenap">Figura slona $15</p>
       </div>
     </div>
+
+    <!-- Claimed reward window -->
+
+    <div class="claimed-rewards-cont">
+      <i class="fa-solid fa-arrow-left-long claim-close"></i>
+      <div class="claimed-rewards"></div>
+    </div>
+
+    <!-- Thank you window-->
+
+    <div class="thanks-cont">
+      <p class="thanks-title">Thank you for using my app</p>
+      <p class="thanks-text">
+        This application is intended to showcase my knowledge of frontend web
+        technologies such as HTML, CSS(SASS), JAVASCRIPT and for fun and to try your
+        luck, this implies that you cannot deposit money and win any of the
+        prizes. If you like my work or if you see an bug in the application that
+        I missed, I would be grateful if you could point it out to me.  <br> Feel free to contact me at lazarpanović@yahoo.com .Good day, thank you again for
+        using my application.
+      </p>
+      <button class="reset-btn">OK</button>
+    </div>
+
+    <!-- About window-->
+
+    <div class="about-cont">
+      <i class="fa-solid fa-arrow-left-long about-close"></i>
+      <p class="about-title">About app</p>
+      <p class="about-text">
+        -At the very beginning, you get $100 with which you can spin the wheel
+        and win rewards.
+      </p>
+      <p class="about-text">-Each spin costs you $50.</p>
+      <p class="about-text">
+        -When you draw a reward, you can immediately sell it, for the value of
+        the reward drawn, and add money for a new draw, or claim it and add it
+        to my rewards list.
+      </p>
+      <p class="about-text">
+        -When you claim a reward, you can open the my rewards list in the nav
+        menu, there are all your won rewards that you have not sold, if you have
+        changed your mind, you can still sell the reward or go to the last step
+        by clicking on the ship button.
+      </p>
+      <p class="about-text">
+        -You can see all the prizes you can win, as well as information about
+        them, by clicking on the button 'click to see all rewards'
+      </p>
+      <p class="about-text">
+        -Also in 'click to see all rewards' section you can see the odds of
+        winning each of the rewards.
+      </p>
+    </div>
+
+    <!-- Contact window -->
+
+    <div class="contact-cont">
+      <i class="fa-solid fa-arrow-left-long contact-close"></i>
+      <p class="contact-title">Contact</p>
+      <div class="contact-text">
+        <div class="contact-left contact-middle">
+          <div class="contact-name card">
+            <p>NAME</p>
+            <p>LAZAR</p>
+          </div>
+          <div class="contact-years card">
+            <p>YEARS</p>
+            <p>26 YEARS OLD</p>
+          </div>
+          <div class="contact-sen card">
+            <p>SENIORITY</p>
+            <p>JUNIOR</p>
+          </div>
+          <div class="contact-role card">
+            <p>ROLE</p>
+            <p>WEB DEVELOPER</p>
+          </div>
+        </div>
+        <div class="contact-right contact-middle">
+          <div class="technologies">
+            <i class="fa-brands fa-html5"></i>
+            <div class="metter-cont">
+            <div class="metter">
+              <div class="h1"></div>
+            </div>
+            <div class="metter">
+              <div class="h2"></div>
+            </div>
+            <div class="metter">
+              <div class="h3"></div>
+            </div>
+            <div class="metter">
+              <div class="h4"></div>
+            </div>
+            </div>
+          </div>
+          <div class="technologies">
+            <i class="fa-brands fa-css3-alt"></i>
+            <div class="metter-cont">
+            <div class="metter">
+              <div class="css1"></div>
+            </div>
+            <div class="metter">
+              <div class="css2"></div>
+            </div>
+            <div class="metter">
+              <div class="css3"></div>
+            </div>
+            <div class="metter"></div>
+            </div>
+          </div>
+          <div class="technologies">
+            <i class="fa-brands fa-js"></i>
+            <div class="metter-cont">
+            <div class="metter">
+              <div class="js1"></div>
+            </div>
+            <div class="metter">
+              <div class="js2"></div>
+            </div>
+            <div class="metter">
+              <div class="js3"></div>
+            </div>
+            <div class="metter"></div>
+            </div>
+          </div>
+          <div class="technologies">
+            <i class="fa-brands fa-php"></i>
+            <div class="metter-cont">
+            <div class="metter">
+              <div class="php1"></div>
+            </div>
+            <div class="metter"></div>
+            <div class="metter"></div>
+            <div class="metter"></div>
+            </div>
+          </div>
+          <div class="technologies">
+            <i class="fa-brands fa-react"></i>
+            <div class="metter-cont">
+            <div class="metter">
+              <div class="react1"></div>
+            </div>
+            <div class="metter"></div>
+            <div class="metter"></div>
+            <div class="metter"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-down">
+        <a target="_blank" href="https://www.instagram.com/lazarpanovic/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a target="_blank" href="https://www.facebook.com/lazar.panovic/"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a target="_blank" href="https://github.com/Panoviclazar"><i class="fa-brands fa-github"></i></a>
+        <a target="_blank" href="mailto:lazarpanovic@yahoo.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
