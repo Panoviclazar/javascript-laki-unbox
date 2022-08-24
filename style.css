@@ -12,13 +12,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  -webkit-text-size-adjust: 100%;
 }
 
 header {
   font-size: 22px;
   font-family: "Dancing Script", cursive;
   color: #000000;
-  padding: 0 0px;
   display: flex;
   padding: 0 30px;
   justify-content: space-between;
@@ -71,7 +71,7 @@ header nav ul i {
 }
 
 .wheel-container {
-  margin-top: 35px;
+  margin: 35px 0px 0px 0px;
   background-color: #ffffff;
   position: relative;
   display: flex;
@@ -92,7 +92,8 @@ header nav ul i {
   font-size: 20px;
 }
 .rewards img {
-  width: 50px;
+  width: 90%;
+  height: auto;
 }
 
 .k1 {
@@ -233,7 +234,7 @@ header nav ul i {
 }
 
 .reward-current {
-  margin-top: 300px;
+  margin: 300px 0px 0px 0px;
   transform: translateY(-50%);
   position: fixed;
   width: 600px;
@@ -263,13 +264,14 @@ header nav ul i {
   font-size: 20px;
 }
 .reward-current img {
-  width: 150px;
+  width: 25%;
+  height: auto;
 }
 .reward-current p {
   font-size: 28px;
 }
 .reward-current .buttons {
-  margin-top: 20px;
+  margin: 20px 0px 0px 0px;
 }
 .reward-current .buttons button {
   width: 70px;
@@ -314,7 +316,7 @@ header nav ul i {
   color: #ffffff;
   padding: 2px 5px;
   border: 1px solid #cb3c23;
-  margin-top: 20px;
+  margin: 20px 0px 0px 0px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
 }
@@ -371,7 +373,8 @@ header nav ul i {
   font-family: "Montserrat", sans-serif;
 }
 .rewards-cont img {
-  width: 150px;
+  width: 100%;
+  height: auto;
 }
 
 .claimed-rewards-cont {
@@ -424,7 +427,8 @@ header nav ul i {
   text-align: center;
 }
 .claimed-rewards-cont .claimed-rewards .reward .img-text-cont img {
-  width: 150px;
+  width: 25%;
+  height: auto;
 }
 .claimed-rewards-cont .claimed-rewards .reward .claimed-rewards-action {
   width: 35%;
@@ -651,7 +655,7 @@ header nav ul i {
   border: none;
 }
 .contact-cont .contact-down {
-  padding-top: 20px;
+  padding: 20px 0px 0px 0px;
   width: 100%;
   height: 15%;
   border-top: 2px solid rgba(0, 0, 0, 0.6039215686);
@@ -676,16 +680,17 @@ header nav ul i {
   transform: rotateX(180deg);
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   header .laki-unbox {
     display: none;
   }
   .wheel-container {
-    margin-top: 170px;
+    margin: 170px 0px 0px 0px;
     width: 300px;
   }
   .wheel-container img {
-    width: 30px;
+    width: 90%;
+    height: auto;
   }
   .rewards-cont {
     grid-template-columns: 1fr;
@@ -698,7 +703,7 @@ header nav ul i {
   }
   .reward-current {
     width: 90%;
-    margin-top: 350px;
+    margin: 350px 0px 0px 0px;
   }
   .claimed-rewards-cont {
     width: 90%;
@@ -722,6 +727,7 @@ header nav ul i {
     gap: 10px;
   }
   .claimed-rewards-cont .claimed-rewards .img-text-cont {
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -735,7 +741,8 @@ header nav ul i {
     text-align: center;
   }
   .claimed-rewards-cont .claimed-rewards .img-text-cont img {
-    width: 150px;
+    width: 100%;
+    height: auto;
   }
   .thanks-cont {
     top: 110px;
