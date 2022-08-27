@@ -678,7 +678,7 @@ header nav ul i {
   height: 100vh;
   background: linear-gradient(143deg, rgb(18, 86, 68) 0%, rgb(255, 255, 255) 35%, rgb(95, 187, 151) 100%);
   position: fixed;
-  display: grid;
+  display: none;
   place-content: center;
 }
 .message-cont .message {
