@@ -1,10 +1,11 @@
 $base-color: #f3f3f3
 $font-color: #000000
+$background-color: rgb(18,86,68)
 $primary-color: #5FBB97
 $primary-dark: #125644
 $secondary-color: #FF4B3E
 $secondary-dark: #cb3c23
-$gradient: linear-gradient(to right, #98e05e, #3bb484)
+$gradient: linear-gradient(143deg, rgba(18,86,68,1) 0%, rgba(255,255,255,1) 35%, rgba(95,187,151,1) 100%)
 
 $font-header: 'Dancing Script', cursive
 $font-text: 'Montserrat', sans-serif
@@ -16,8 +17,8 @@ $font-text: 'Montserrat', sans-serif
 body
   height: 100vh
   cursor: default
-  background: rgb(18,86,68)
-  background: linear-gradient(143deg, rgba(18,86,68,1) 0%, rgba(255,255,255,1) 35%, rgba(95,187,151,1) 100%)
+  background: $background-color
+  background: $gradient
   display: flex
   flex-direction: column
   align-items: center
@@ -559,7 +560,31 @@ header
       i
         font-size: 50px
         cursor: pointer
-
+.message-cont
+  width: 100vw
+  height: 100vh
+  background: $gradient
+  position: fixed
+  display: none
+  place-content: center
+  .message
+    padding: 20px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-around
+    border-radius: 20px
+    font-family: $font-text
+    color: #ffffff
+    font-size: 19px
+    text-align: center
+    width: 500px
+    height: 250px
+    background: $secondary-dark
+    a
+      text-decoration: none
+      color: #ffffff
+      font-size: 50px
 .block
   opacity: 0
 
@@ -567,6 +592,10 @@ header
   transform: rotateX(180deg)
 
 @media only screen and (max-width: 700px)
+  .message-cont
+    .message
+      width: 80vw
+      height: 50vh
   header
     .laki-unbox
       display: none

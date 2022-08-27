@@ -34,6 +34,11 @@ const css3 = document.querySelector(".fa-css3-alt");
 const js = document.querySelector(".fa-js");
 const php = document.querySelector(".fa-php");
 const react = document.querySelector(".fa-react");
+const messageCont = document.querySelector(".message-cont");
+
+if (navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) {
+  messageCont.style.display = "grid";
+}
 
 let buttonDisabled = false;
 
