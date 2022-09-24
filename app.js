@@ -36,9 +36,6 @@ const php = document.querySelector(".fa-php");
 const react = document.querySelector(".fa-react");
 const messageCont = document.querySelector(".message-cont");
 
-if (navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) {
-  messageCont.style.display = "grid";
-}
 
 let buttonDisabled = false;
 
