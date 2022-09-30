@@ -720,7 +720,7 @@ header nav ul i {
   }
   .wheel-container {
     margin: 170px 0px 0px 0px;
-    width: 300px;
+    width: 90vw;
   }
   .wheel-container img {
     width: 90%;
@@ -751,9 +751,8 @@ header nav ul i {
     overflow-x: hidden;
     border-radius: 10px;
     box-shadow: 0 0 15px #cb3c23;
-    width: 100%;
+    width: 90vw;
     height: 500px;
-    background: #ffffff;
     padding-inline: 10px;
     border-radius: 15px;
     border: 1px solid rgba(0, 0, 0, 0.4117647059);
@@ -780,8 +779,8 @@ header nav ul i {
   }
   .thanks-cont {
     top: 110px;
-    width: 90%;
-    padding: 20px 10px;
+    width: 90vw;
+    padding: 20px 20px;
   }
   .thanks-cont p:nth-child(1) {
     font-size: 30px;
@@ -792,7 +791,7 @@ header nav ul i {
     text-align: justify;
   }
   .about-cont {
-    width: 80%;
+    width: 90vw;
     height: 570px;
     top: 50%;
     transform: translateY(-45%);
@@ -801,14 +800,14 @@ header nav ul i {
     justify-self: center;
   }
   .about-cont i {
-    left: -30px;
-    top: -30px;
+    left: 0%;
+    top: -10%;
   }
   .about-cont p {
     font-size: 15px;
   }
   .contact-cont {
-    width: 90%;
+    width: 90vw;
     top: 100px;
   }
   .contact-cont .contact-text {
