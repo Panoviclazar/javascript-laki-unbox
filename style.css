@@ -372,6 +372,9 @@ header nav ul i {
   align-items: center;
   font-family: "Montserrat", sans-serif;
 }
+.rewards-cont div .odds {
+  font-weight: bolder;
+}
 .rewards-cont img {
   width: 100%;
   height: auto;
